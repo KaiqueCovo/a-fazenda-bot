@@ -17,7 +17,7 @@ Bot faz parte de um estudo de automação com o puppeteer.
 $ git clone git@github.com:KaiqueCovo/votacao-fazenda.git
 
 # Entrando no repositório
-$ cd GoMarketplace
+$ cd votacao-fazenda
 
 # Instalando dependências
 $ npm install
