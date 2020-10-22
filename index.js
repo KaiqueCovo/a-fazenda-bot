@@ -5,7 +5,6 @@ const puppeteer = require('puppeteer');
   const page = await browser.newPage();  
   await page.goto('https://afazenda.r7.com/a-fazenda-12/votacao');
 
-
   let votos = 0
 
   setInterval(async () => {
@@ -20,7 +19,7 @@ const puppeteer = require('puppeteer');
       })
 
       votos++
-      console.log(`VOCÊ VOTOU: ${votos} VEZES`)
+      console.log(`VOCÊ VOTOU NO MATEUS: ${votos} VEZES`)
       
     } catch( err) {
       console.log( 'ERROR => ', err)
