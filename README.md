@@ -1,28 +1,51 @@
-# Fazenda Bot
+<!-- Logotipo -->
+<h1 align="center">
+  <img alt="Logotipo" src="./.github/logo.png"  />
+</h1>
 
-Bot faz parte de um estudo de automação com o puppeteer.
+<div align="center">
 
-**O BOT ESTÁ VOTANDO NO MATEUS A CADA 5 SEGUNDOS**
+<!-- Menu -->
+<p align="center" >
+  <a href="#bookmark_tabs-about-the-project">:bookmark_tabs:&nbsp;&nbsp;About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-technologies">:rocket:&nbsp;&nbsp;Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">:information_source:&nbsp;&nbsp;How To Use</a>
+</p>
 
-## Começando os trabalhos
+<!-- Gif -->
+<!-- AQUI VEM O GIF DA APLICAÇÃO RODANDO>
 
-### Pré-requisitos
+</div>
 
-* [Git](https://git-scm.com)
-* [Node.js v10.16](https://nodejs.org/en)
+<!-- About -->
+## :bookmark_tabs: About the project
 
-### Utilizando o bot da fazenda
+The bot is part of an automation study with the puppeteer
+
+<!-- Technologies -->
+## :rocket: Technologies
+
+- [Puppeteer](https://github.com/puppeteer/puppeteer)
+
+<!-- How to use -->
+## :information_source: How To Use
+
+
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16](https://nodejs.org/en) or higher + [Yarn v1.13](https://yarnpkg.com) or higher installed on your computer. Run from your command line:
+
 ```bash
-# Clonando o repositório
-$ git clone git@github.com:KaiqueCovo/votacao-fazenda.git
+# Clone this repository
+$ git clone git@github.com:KaiqueCovo/a-fazenda-bot.git
 
-# Entrando no repositório
-$ cd votacao-fazenda
+# Go into the repository
+$ cd a-fazenda-bot
 
-# Instalando dependências
-$ npm install
+# Install dependencies
+$ yarn install
+# or
+$ npm run install
 
-# Rodando script
+# Run the project
 $ node index.js
 ```
 
