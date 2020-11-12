@@ -13,7 +13,7 @@
 </p>
 
 <!-- Gif -->
-<!-- AQUI VEM O GIF DA APLICAÇÃO RODANDO> -->
+![](./.github/votacao.gif)
 
 </div>
 
